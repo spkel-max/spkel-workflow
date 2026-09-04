@@ -5,5 +5,364 @@
     "author": "spkel-max",
     "description": ""
   },
-  "workflows": []
+  "workflows": [
+    {
+      "id": "sd-zx6etc",
+      "name": "生图工作流",
+      "category": "sd",
+      "summary": "",
+      "description": "",
+      "tags": [],
+      "archived": false,
+      "cover": {
+        "url": "https://github.com/spkel-max/spkel-workflow/releases/download/sd-zx6etc-v1.0/sd-zx6etc-v1.0-cover.png",
+        "sha256": "8cf63d3313296700d4e2f05f30fea2cd32ace1b7185ef3cfdce177a8580fb72b"
+      },
+      "versions": [
+        {
+          "version": "1.0",
+          "published_at": "2026-09-04T13:26:10.257000Z",
+          "release_tag": "sd-zx6etc-v1.0",
+          "changelog": "无",
+          "comfyui": {
+            "minimum": "0.18.0",
+            "maximum": "0.18.0"
+          },
+          "package": {
+            "url": "https://github.com/spkel-max/spkel-workflow/releases/download/sd-zx6etc-v1.0/%E7%94%9F%E5%9B%BE%E5%B7%A5%E4%BD%9C%E6%B5%81-v1.0.zip",
+            "size": 513616,
+            "sha256": "613a752ba598b4806798a35ec89a512a1208d46e5396486d71de15932315a30a"
+          },
+          "preview": {
+            "url": "https://github.com/spkel-max/spkel-workflow/releases/download/sd-zx6etc-v1.0/sd-zx6etc-v1.0-cover.png",
+            "sha256": "8cf63d3313296700d4e2f05f30fea2cd32ace1b7185ef3cfdce177a8580fb72b"
+          },
+          "custom_nodes": [
+            {
+              "registry_id": null,
+              "name": "cg-image-filter",
+              "version": null,
+              "commit": "e5753d72f5798438b1cbb47d71ccddb5bac9b4cb",
+              "required": true,
+              "manual": true,
+              "source_url": "https://github.com/chrisgoringe/cg-image-filter"
+            },
+            {
+              "registry_id": null,
+              "name": "Comfy-WaveSpeed",
+              "version": null,
+              "commit": "8253745127785d820cff0a9621d1537a5aae5424",
+              "required": true,
+              "manual": true,
+              "source_url": "https://github.com/chengzeyi/Comfy-WaveSpeed"
+            },
+            {
+              "registry_id": null,
+              "name": "comfyui-adaptiveprompts",
+              "version": null,
+              "commit": "aa0d896b5e5d9c7031c3aa995e028f2507dfc63c",
+              "required": true,
+              "manual": true,
+              "source_url": "https://github.com/Alectriciti/comfyui-adaptiveprompts"
+            },
+            {
+              "registry_id": null,
+              "name": "ComfyUI-Advanced-ControlNet",
+              "version": null,
+              "commit": "ba0795aaaa6d100f8d84a1f060df682bcc1091fa",
+              "required": true,
+              "manual": true,
+              "source_url": "https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet"
+            },
+            {
+              "registry_id": null,
+              "name": "ComfyUI-Crystools",
+              "version": null,
+              "commit": "2f18256c5b5063937106f29a8e0a7db3ae3869b7",
+              "required": true,
+              "manual": true,
+              "source_url": "https://github.com/crystian/ComfyUI-Crystools"
+            },
+            {
+              "registry_id": null,
+              "name": "ComfyUI-CRZnodes",
+              "version": null,
+              "commit": "b7da88ac51a99b6cf467aedbd2296fd27e6fd35d",
+              "required": true,
+              "manual": true,
+              "source_url": "https://github.com/CoreyCorza/ComfyUI-CRZnodes"
+            },
+            {
+              "registry_id": null,
+              "name": "ComfyUI-Custom-Scripts",
+              "version": null,
+              "commit": "609f3afaa74b2f88ef9ce8d939626065e3247469",
+              "required": true,
+              "manual": true,
+              "source_url": "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
+            },
+            {
+              "registry_id": null,
+              "name": "ComfyUI-Danbooru-Gallery",
+              "version": null,
+              "commit": "0ee459cfa7e902e142318ea84ca9c56a1b9f08de",
+              "required": true,
+              "manual": true,
+              "source_url": "https://github.com/Aaalice233/ComfyUI-Danbooru-Gallery"
+            },
+            {
+              "registry_id": null,
+              "name": "ComfyUI-Easy-Use",
+              "version": null,
+              "commit": "5618a748c14858a6e95a583baa28bb7c8da7976a",
+              "required": true,
+              "manual": true,
+              "source_url": "https://github.com/yolain/ComfyUI-Easy-Use"
+            },
+            {
+              "registry_id": null,
+              "name": "ComfyUI-FreeMemory",
+              "version": null,
+              "commit": "44fc13f97feec9fdb50ccf342ad64eeb52a95512",
+              "required": true,
+              "manual": true,
+              "source_url": "https://github.com/ShmuelRonen/ComfyUI-FreeMemory"
+            },
+            {
+              "registry_id": null,
+              "name": "ComfyUI-Impact-Pack",
+              "version": null,
+              "commit": "429d0159ad429e64d2b3916e6e7be9c22d025c3c",
+              "required": true,
+              "manual": true,
+              "source_url": "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
+            },
+            {
+              "registry_id": null,
+              "name": "ComfyUI-Impact-Subpack",
+              "version": null,
+              "commit": "50c7b71a6a224734cc9b21963c6d1926816a97f1",
+              "required": true,
+              "manual": true,
+              "source_url": "https://github.com/ltdrdata/ComfyUI-Impact-Subpack"
+            },
+            {
+              "registry_id": null,
+              "name": "ComfyUI-Inpaint-CropAndStitch",
+              "version": null,
+              "commit": "606e2b4fd83fc44e1f0b403e1f076501db8c3749",
+              "required": true,
+              "manual": true,
+              "source_url": "https://github.com/lquesada/ComfyUI-Inpaint-CropAndStitch"
+            },
+            {
+              "registry_id": null,
+              "name": "ComfyUI-KJNodes",
+              "version": null,
+              "commit": "e8e88f7c88e3f6205b122f5de87e69a09fbce5ac",
+              "required": true,
+              "manual": true,
+              "source_url": "https://github.com/kijai/ComfyUI-KJNodes"
+            },
+            {
+              "registry_id": null,
+              "name": "ComfyUI-Lora-Manager",
+              "version": null,
+              "commit": "b309becdf901d76a03acdcbe531aad5b48f26c0b",
+              "required": true,
+              "manual": true,
+              "source_url": "https://github.com/willmiao/ComfyUI-Lora-Manager"
+            },
+            {
+              "registry_id": null,
+              "name": "comfyui-prompt-control",
+              "version": null,
+              "commit": "53d210953a4d2d3c778a1d1bca76bb87842af3a2",
+              "required": true,
+              "manual": true,
+              "source_url": "https://github.com/asagi4/comfyui-prompt-control"
+            },
+            {
+              "registry_id": null,
+              "name": "Comfyui-Resolution-Master",
+              "version": null,
+              "commit": "02bc2df967d53780913033578fd85b2afefae8c6",
+              "required": true,
+              "manual": true,
+              "source_url": "https://github.com/Azornes/Comfyui-Resolution-Master"
+            },
+            {
+              "registry_id": null,
+              "name": "ComfyUI-RMBG",
+              "version": null,
+              "commit": "58f1947a11567a9f8b707223185570850e773856",
+              "required": true,
+              "manual": true,
+              "source_url": "https://github.com/1038lab/ComfyUI-RMBG"
+            },
+            {
+              "registry_id": null,
+              "name": "comfyui-tooling-nodes",
+              "version": null,
+              "commit": "ca01116495cad1f2d8440641f26ced8fbdbbe8de",
+              "required": true,
+              "manual": true,
+              "source_url": "https://github.com/Acly/comfyui-tooling-nodes"
+            },
+            {
+              "registry_id": null,
+              "name": "ComfyUI-WD14-Tagger",
+              "version": null,
+              "commit": "9e0a6e700299182fc05c58b62e7ad9f72182a78b",
+              "required": true,
+              "manual": true,
+              "source_url": "https://github.com/pythongosssss/ComfyUI-WD14-Tagger"
+            },
+            {
+              "registry_id": null,
+              "name": "ComfyUI_Comfyroll_CustomNodes",
+              "version": null,
+              "commit": "d78b780ae43fcf8c6b7c6505e6ffb4584281ceca",
+              "required": true,
+              "manual": true,
+              "source_url": "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
+            },
+            {
+              "registry_id": null,
+              "name": "comfyui_controlnet_aux",
+              "version": null,
+              "commit": "59b1fc411ede8623b2997855b8018f0b3b6cf49f",
+              "required": true,
+              "manual": true,
+              "source_url": "https://github.com/Fannovel16/comfyui_controlnet_aux"
+            },
+            {
+              "registry_id": null,
+              "name": "ComfyUI_essentials",
+              "version": null,
+              "commit": "9d9f4bedfc9f0321c19faf71855e228c93bd0dc9",
+              "required": true,
+              "manual": true,
+              "source_url": "https://github.com/cubiq/ComfyUI_essentials"
+            },
+            {
+              "registry_id": null,
+              "name": "ComfyUI_Mira",
+              "version": null,
+              "commit": "0044a2e92d993f96265c7a002138eb7bd54495b2",
+              "required": true,
+              "manual": true,
+              "source_url": "https://github.com/mirabarukaso/ComfyUI_Mira"
+            },
+            {
+              "registry_id": null,
+              "name": "ComfyUI_Noise",
+              "version": null,
+              "commit": "0c9ec19b16dc72334cb8ce82c3774aed183048e4",
+              "required": true,
+              "manual": true,
+              "source_url": "https://github.com/BlenderNeko/ComfyUI_Noise"
+            },
+            {
+              "registry_id": null,
+              "name": "comfyui_segment_anything",
+              "version": null,
+              "commit": "ab6395596399d5048639cdab7e44ec9fae857a93",
+              "required": true,
+              "manual": true,
+              "source_url": "https://github.com/storyicon/comfyui_segment_anything"
+            },
+            {
+              "registry_id": null,
+              "name": "efficiency-nodes-comfyui",
+              "version": null,
+              "commit": "4579b7d6076b2870998a08f5d37883fbc8261ff2",
+              "required": true,
+              "manual": true,
+              "source_url": "https://github.com/jags111/efficiency-nodes-comfyui"
+            },
+            {
+              "registry_id": null,
+              "name": "PixelOE",
+              "version": null,
+              "commit": "341aa85048338d4d26c62fba23176e2b70d9f61b",
+              "required": true,
+              "manual": true,
+              "source_url": "https://github.com/KohakuBlueleaf/PixelOE"
+            },
+            {
+              "registry_id": null,
+              "name": "pre_cfg_comfy_nodes_for_ComfyUI",
+              "version": null,
+              "commit": "967b1816462a3f9834887a6295e2daea838d0b62",
+              "required": true,
+              "manual": true,
+              "source_url": "https://github.com/Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI"
+            },
+            {
+              "registry_id": null,
+              "name": "rgthree-comfy",
+              "version": null,
+              "commit": "2c5342a8cb0eaecaabf61435a5f37dd594c510ba",
+              "required": true,
+              "manual": true,
+              "source_url": "https://github.com/rgthree/rgthree-comfy"
+            },
+            {
+              "registry_id": null,
+              "name": "skbundle",
+              "version": null,
+              "commit": "a8310cab86d6acc6576e6d870a12dec869e474b6",
+              "required": true,
+              "manual": true,
+              "source_url": "https://github.com/SKBv0/ComfyUI_SKBundle"
+            },
+            {
+              "registry_id": null,
+              "name": "Skimmed_CFG",
+              "version": null,
+              "commit": "2712803a8b721665d43d5aeb4430e5ac0e931091",
+              "required": true,
+              "manual": true,
+              "source_url": "https://github.com/Extraltodeus/Skimmed_CFG"
+            },
+            {
+              "registry_id": null,
+              "name": "was-node-suite-comfyui",
+              "version": null,
+              "commit": "ea935d1044ae5a26efa54ebeb18fe9020af49a45",
+              "required": true,
+              "manual": true,
+              "source_url": "https://github.com/WASasquatch/was-node-suite-comfyui"
+            },
+            {
+              "registry_id": null,
+              "name": "WeiLin-Comfyui-Tools",
+              "version": null,
+              "commit": "efd923795d27e59da1d7a43e453ca95b07e684f9",
+              "required": true,
+              "manual": true,
+              "source_url": "https://github.com/weilin9999/WeiLin-Comfyui-Tools"
+            }
+          ],
+          "inputs": [
+            {
+              "source": "example.png",
+              "archive": "inputs/a8e215ad32a0-example.png",
+              "size": 8589,
+              "sha256": "a8e215ad32a0052fc4190e9c5863428d5ee35cd98b246243842ba8360511b7c4",
+              "node_ids": [
+                "1443",
+                "2137",
+                "52"
+              ]
+            }
+          ],
+          "models": [],
+          "repository_path": "workflows/sd/生图工作流/versions/v1.0"
+        }
+      ],
+      "repository_path": "workflows/sd/生图工作流"
+    }
+  ]
 }
